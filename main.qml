@@ -8,7 +8,7 @@ QtObject
     {
         id: top_window
         objectName: "top_window"
-        title:"osgEarth Bug Repo (1)"
+        title:"OSG/osgEarth Bug Repo"
         x: 0
         y: 0
         width: 960
@@ -20,26 +20,6 @@ QtObject
             OsgEarthItem
             {
                 objectName: "osgearth_widget_01"
-                anchors.fill: parent
-            }
-        }
-    }
-    property var dummy2: ApplicationWindow
-    {
-        id: bottom_window
-        objectName: "bottom_window"
-        title:"osgEarth Bug Repo (2)"
-        x: 960
-        y: 0
-        width: 960
-        height: 1080
-        visible: true
-        Rectangle
-        {
-            anchors.fill: parent
-            OsgEarthItem
-            {
-                objectName: "osgearth_widget_02"
                 anchors.fill: parent
             }
         }
